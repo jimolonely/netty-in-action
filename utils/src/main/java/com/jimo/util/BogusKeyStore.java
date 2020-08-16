@@ -1,4 +1,4 @@
-package vom.jimo.util;
+package com.jimo.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
