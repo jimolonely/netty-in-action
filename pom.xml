@@ -16,6 +16,7 @@
         <module>chapter03</module>
         <module>chapter04</module>
         <module>chapter05</module>
+        <module>01-java-nio</module>
     </modules>
     <properties>
         <junit.version>4.12</junit.version>
@@ -95,4 +96,17 @@
         </pluginManagement>
     </build>
 
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
