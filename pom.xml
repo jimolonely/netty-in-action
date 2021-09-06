@@ -17,6 +17,7 @@
         <module>chapter04</module>
         <module>chapter05</module>
         <module>01-java-nio</module>
+        <module>02-reactor</module>
     </modules>
     <properties>
         <junit.version>4.12</junit.version>
