@@ -39,8 +39,8 @@ public class DiscardServer {
                     }
                     socketChannel.close();
                 }
+                it.remove();
             }
-            it.remove();
         }
         sc.close();
     }
