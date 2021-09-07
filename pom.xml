@@ -19,6 +19,7 @@
         <module>01-java-nio</module>
         <module>02-reactor</module>
         <module>03-future</module>
+        <module>04-netty-basic</module>
     </modules>
     <properties>
         <junit.version>4.12</junit.version>
