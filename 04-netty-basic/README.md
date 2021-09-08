@@ -55,3 +55,26 @@
 * disConnect: 客户端
 * close
 
+# Pipeline
+
+Handler在流水线中的执行顺序
+
+## ChannelHandlerContext的作用
+
+获取组件实例，入站出站方法
+
+* 截断流水线：仅限入站
+* 手动触发下一站
+
+## ChannelPipeline的方法
+
+* 增加Handler
+* 删除Handler
+
+## ChannelInitializer的作用
+
+ 方便组装流水线
+
+* 为什么要在执行ChannelInitializer之后就移除？--- 因为只执行一次
+
+
