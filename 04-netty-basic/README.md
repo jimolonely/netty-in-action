@@ -78,3 +78,22 @@ Handler在流水线中的执行顺序
 * 为什么要在执行ChannelInitializer之后就移除？--- 因为只执行一次
 
 
+# ByteBuf 熟悉
+
+分成4个部分
+
+和Java的ByteBuffer区别
+
+分类
+
+* heap
+* direct
+* composite
+
+是否池化
+
+复制方式
+
+* slice
+* duplicate
+
